@@ -1,0 +1,15 @@
+
+   <div class = "navbar navbar-default navigation">
+    <div class="navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class = "tag2"><a href="/">Home</a></li>
+            <li class = "tag2"><a href="#">Facilities</a></li>
+            <li class = "tag2"><a href="roomavailability.jsp">Room Availability and Rates</a></li>
+            <li class = "tag2"><a href="#">Map and Directions</a></li>
+            <li class = "tag2"><a href="#">Reviews</a></li>
+        </ul>
+       <!--  <ul class = "nav navbar-nav navbar-right">
+        <li><a href = "/logout">Logout</a></li>
+        </ul>--> 
+    </div>
+</div> 
