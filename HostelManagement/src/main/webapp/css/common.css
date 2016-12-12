@@ -1,0 +1,67 @@
+@CHARSET "ISO-8859-1";
+
+.sub1 {
+	float: left;
+	width: 50%;
+	margin-top: 40px;
+}
+
+.sub2 {
+	float: right;
+	width: 50%;
+	padding-top: 100px;
+}
+
+form h3 {
+	text-align: center;
+	color: black;
+}
+
+.main {
+	background-image: url("../images/background.jpg");
+	width: 100%;
+	height: 85%;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+	color: black;
+	margin-top: -20px;
+}
+
+.header, .footer {
+	text-align: center;
+	background-color: #2C3E50;
+	color: white;
+}
+#details{
+	width: 50%;
+	margin:0 auto;
+}
+
+.navigation {
+	padding-top: 70px;
+	background-color: #EEF9FF;
+}
+
+div.navbar-collapse li.tag2 a {
+	color: black;
+}
+
+#prndetails {
+	height: 50px;
+	font-size: 17;
+	
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	width: 70%;
+	height : 60%;
+	margin: auto;
+}
+.sub3{
+	width: 100%;
+}
+
+
+
+
