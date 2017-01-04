@@ -5,7 +5,7 @@
             <li class = "tag2"><a href="home.jsp">Home</a></li>
             <li class = "tag2"><a href="#">Facilities</a></li>
             <li class = "tag2"><a href="roomavailability.jsp">Room Availability and Rates</a></li>
-            <li class = "tag2"><a href="residantdetails.jsp">Map and Directions</a></li>
+            <li class = "tag2"><a href="map.jsp">Map and Directions</a></li>
             <li class = "tag2"><a href="#">Reviews</a></li>
         </ul>
        <!--  <ul class = "nav navbar-nav navbar-right">

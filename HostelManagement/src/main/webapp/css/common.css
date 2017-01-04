@@ -9,7 +9,7 @@
 .sub2 {
 	float: right;
 	width: 50%;
-	padding-top: 100px;
+	padding-top: 60px;
 }
 
 form h3 {
@@ -18,29 +18,43 @@ form h3 {
 }
 
 .main {
-	background-image: url("../images/background.jpg");
 	width: 100%;
-	height: 85%;
-	background-attachment: fixed;
-	background-size: cover;
-	overflow: hidden;
-	color: black;
-	margin-top: -20px;
+	height: 100%;
+	color: black;	
 }
 
+/* body{
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    
+} */
 .header, .footer {
 	text-align: center;
 	background-color: #2C3E50;
 	color: white;
 }
-#details{
+body{
+	background-image: url("../images/background.jpg");
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow-y: hidden;
+	overflow-x: hidden; 
+}
+
+#details {
 	width: 50%;
-	margin:0 auto;
+	margin: 0 auto;
+	overflow: hidden;
 }
 
 .navigation {
 	padding-top: 70px;
 	background-color: #EEF9FF;
+	overflow: auto;
 }
 
 div.navbar-collapse li.tag2 a {
@@ -48,20 +62,93 @@ div.navbar-collapse li.tag2 a {
 }
 
 #prndetails {
-	height: 50px;
 	font-size: 17;
-	
 }
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
 	width: 70%;
-	height : 60%;
 	margin: auto;
 }
-.sub3{
+
+.sub3 {
 	width: 100%;
 }
 
+#mapLoad {
+width: auto; 
+height: 600px;
+}
+h3{
+	text-align: center;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
 
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	padding: 12px 16px;
+	scroll: none;
+}
 
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+ 
+  width: 15%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-top:10px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
 

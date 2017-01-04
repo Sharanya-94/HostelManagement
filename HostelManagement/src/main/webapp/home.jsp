@@ -8,18 +8,18 @@
 	</div>
 	<div class="sub2">
 
-		<form class="form-horizontal" name="myForm" class="frm" novalidate>
+		<form class="form-horizontal" name="adminFrm" action = "/AdminLoginServlet.do" method = "post" class="frm" novalidate>
 			<div class="form-group">
 				<h3>
 					<strong>Admin Login</strong>
 				</h3>
 			</div>
 			<div class="form-group">
-				<label class="control-label col-sm-4" for="username">User
+				<label class="control-label col-sm-4" for="mobileNum">User
 					name:</label>
 				<div class="col-sm-4">
-					<input type="text" class="form-control field" id="username"
-						name="username" placeholder="Enter user name" required>
+					<input type="text" class="form-control field" id="mobileNum"
+						name="mobileNum" placeholder="Enter mobile number" required>
 				</div>
 			</div>
 
@@ -39,8 +39,7 @@
 
 			<div class="form-group">
 				<div class="col-sm-offset-4 col-sm-4">
-					<input type="submit" value="New Resident Regiter"
-						class="btn btn-default" />
+					<a href="/RegisterServlet.do" class="btn btn-default">New Resident Register</a>
 				</div>
 			</div>
 

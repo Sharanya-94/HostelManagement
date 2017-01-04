@@ -1,11 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
- <%@page import="com.hostelmanagement.model.RoomDetails" %>
+    pageEncoding="ISO-8859-1"%>
 <%@ include file="/common/header.jspf"%>
-<%@ include file="/common/navigation.jspf"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ include file="/common/adminnavigation.jspf"%>
+<!-- <div class = "main">
+	<div id="ajaxResponse"></div>
 
-
+	
+</div> -->
 <div class="container main">
   <h2>Room Availability and Rates</h2>
   <table class="table table-striped">
@@ -20,17 +21,17 @@
       <tr>
         <td>1 Sharing</td>
         <td>Rs.9000/-</td>
-        <td><input type = button value = "Check Availability" class="btn btn-default" id="button1" /></td>
+        <td><input type = button value = "Check Availability" class="btn btn-default" id="update1" /></td>
       </tr>
       <tr>
         <td>2 Sharing</td>
         <td>Rs.8000/-</td>
-        <td><input type = button value = "Check Availability" class="btn btn-default" id="button2"/></td>
+        <td><input type = button value = "Check Availability" class="btn btn-default" id="update2"/></td>
       </tr>
       <tr>
         <td>3 Sharing</td>
         <td>Rs.7000/-</td>
-        <td><input type = button value = "Check Availability" class="btn btn-default" id="button3"/></td>
+        <td><input type = button value = "Check Availability" class="btn btn-default"id="update3"/></td>
       </tr>
       <tr>
         <td>4 Sharing</td>
@@ -41,9 +42,11 @@
 
   </table>
  
- 
+  <h2>Rooms Availability </h2>
+  <div id="ajaxResponse" class="form-group">
+  
   
   </div>
-
+</div>
 
 <%@ include file="/common/footer.jspf"%>

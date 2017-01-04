@@ -6,6 +6,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
+	<!-- <properties> <hibernate.version>5.0.6.Final</hibernate.version> </properties> -->
+
+
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -19,13 +22,45 @@
 			<artifactId>bootstrap</artifactId>
 			<version>3.3.6</version>
 		</dependency>
+		<!-- <dependency> <groupId>com.efsavage.twitter.bootstrap</groupId> <artifactId>bootstrap-maven</artifactId> 
+			<version>2.3.1</version> </dependency> -->
+
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>jquery</artifactId>
 			<version>1.9.1</version>
 		</dependency>
+
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-web-api</artifactId>
+			<version>6.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>4.3.6.Final</version>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.6</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
 	</dependencies>
-	
+
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -52,5 +87,5 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	
+
 </project>

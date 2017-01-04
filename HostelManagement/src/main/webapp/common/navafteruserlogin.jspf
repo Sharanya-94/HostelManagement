@@ -11,8 +11,8 @@
 			
 		</ul>
 		<ul class="nav navbar-nav navbar-right">
-			<li class="tag2"><a>Welcome User</a></li>
-			<li class="tag2"><a href="#">Logout</a></li>
+			<li class="tag2"><a>Welcome ${firstName}</a></li>
+			<li class="tag2"><a href="/LogoutServlet.do">Logout</a></li>
 		</ul>
 	</div>
 </div>
